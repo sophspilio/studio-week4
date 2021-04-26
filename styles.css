@@ -1,0 +1,89 @@
+
+body {
+ font-family: 'Roboto', sans-serif;
+ color: #996969;
+ padding: 5px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+ list-style-type: none;
+ color: #A75D67;
+ margin: 1px;
+ padding: 1px;
+ overflow: hidden;
+ background-color: white;
+ font-family: 'Raleway', sans-serif;
+}
+
+li {
+ float: left;
+ border-right: 2px solid white;
+}
+
+/* Add a border to all( but not the last) list items */
+li:last-child {
+ border-right: none;
+}
+
+li a {
+ display: block;
+ color: #004D7C;
+ text-align: left;
+ padding: 15px 17px;
+ text-decoration: none;
+}
+
+/* Links will change color when hovered over */
+li a:hover {
+ background-color: #D0E3DD;
+}
+
+.active {
+ background-color: #D0E3DD;
+}
+
+a{
+  color: #004D7C;
+}
+
+.mapboxgl-popup {
+  padding-bottom: 5px;
+}
+.mapboxgl-popup-close-button {
+  display: none;
+}
+.mapboxgl-popup-content {
+  font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  padding: 0;
+  width: 250px;
+}
+.mapboxgl-popup-content-wrapper {
+  padding: 1%;
+}
+.mapboxgl-popup-content h3 {
+  background: rgb(61, 59, 59);
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  display: block;
+  padding: 15px;
+  font-weight: 700;
+  margin-top: -5px;
+}
+.mapboxgl-popup-content h4 {
+  margin: 0;
+  display: block;
+  padding: 10px 3px 10px 10px;
+  font-weight: 400;
+}
+.mapboxgl-container {
+  cursor: pointer;
+}
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+  margin-top: 3px;
+}
+.mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+  border-bottom-color: rgb(61, 59, 59);
+}
