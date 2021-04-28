@@ -16,7 +16,7 @@
   <style>
     #map {
         position: absolute;
-        top: 200px;
+        top: 260px;
         bottom: 0;
         width: 100%;
       }
@@ -34,8 +34,9 @@
       <li><a class="active" href="output3.html" target="_self">Output 3</a></li>
     </ul>
     <br>
+    <p> This map shows the location of each Smithsonian museum you can visit while on the National Mall in Washington, DC.</p>
   <div id = "map"></div>
-  <p> This map shows the location of each Smithsonian museum you can visit while on the National Mall in Washington, DC.</p>
+
   <script>
   var transformRequest = (url, resourceType) => {
   var isMapboxRequest =
@@ -80,7 +81,7 @@
   'data': data
   },
   'paint': {
-  'circle-radius': 7,
+  'circle-radius': 10,
   'circle-color': "#F4D03F"
   }
   });
